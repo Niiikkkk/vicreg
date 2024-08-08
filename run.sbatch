@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --time=72:00:00
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=10
 #SBATCH --job-name=python-ex
 #SBATCH --mail-user=s319439@studenti.polito.it
 #SBATCH --mail-type=END
