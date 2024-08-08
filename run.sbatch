@@ -5,9 +5,9 @@
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=python-ex
 #SBATCH --mail-user=s319439@studenti.polito.it
-#SBATCH --mail-type=ALL
+#SBATCH --mail-type=END
 #SBATCH --partition=cuda
-#SBATCH --gres=gpu:4
+#SBATCH --gres=gpu:8
 #SBATCH --output=/home/nberardo/vicreg/train.log
 #SBATCH --error=/home/nberardo/vicreg/train.err
 ###### 1 Load the module
