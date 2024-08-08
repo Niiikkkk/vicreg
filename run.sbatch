@@ -6,7 +6,7 @@
 #SBATCH --mail-user=s319439@studenti.polito.it
 #SBATCH --mail-type=END
 #SBATCH --partition=cuda
-#SBATCH --gres=gpu:8
+#SBATCH --gres=gpu:4
 #SBATCH --output=/home/nberardo/vicreg/train.log
 #SBATCH --error=/home/nberardo/vicreg/train.err
 ###### 1 Load the module
