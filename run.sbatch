@@ -16,4 +16,4 @@ module load intel/python/3
 # 2 Activate the virtual environment
 source /home/nberardo/myenv/bin/activate
 # 3 Run the python script
-python -m torch.distributed.launch --nproc_per_node=4 main_vicreg.py --data-dir /home/eaiello/ImageNet --exp-dir /home/nberardo/vicreg/experiment/ --arch resnet50 --epochs 100 --batch-size 512 --base-lr 0.3
+python evaluate.py --data-dir /home/eaiello/ImageNet/ --pretrained /home/nberardo/vicreg/experiment/resnet50.pth --exp-dir /home/nberardo/vicreg/experiment/lincls --lr-head 0.02
