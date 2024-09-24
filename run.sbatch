@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --time=72:00:00
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=10
+#SBATCH --cpus-per-task=8
 #SBATCH --job-name=vicreg
 #SBATCH --mail-user=s319439@studenti.polito.it
 #SBATCH --mail-type=END
 #SBATCH --partition=cuda
-#SBATCH --gres=gpu:4
+#SBATCH --gres=gpu:1
 #SBATCH --output=/home/nberardo/vicreg/train.log
 #SBATCH --error=/home/nberardo/vicreg/train.err
 ###### 1 Load the module
