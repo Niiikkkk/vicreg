@@ -16,4 +16,4 @@ module load intel/python/3
 # 2 Activate the virtual environment
 source /home/nberardo/myenv/bin/activate
 # 3 Run the python script
-python evaluate.py --data-dir /home/eaiello/ImageNet/ --pretrained /home/nberardo/vicreg/experiment/resnet50.pth --exp-dir /home/nberardo/vicreg/experiment/lincls --lr-head 0.02
+python evaluate.py --data-dir /home/eaiello/ImageNet/ --pretrained /home/nberardo/vicreg/resnet50_fullckpt.pth --exp-dir /home/nberardo/vicreg/experiment/lincls_down --lr-head 0.02
