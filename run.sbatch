@@ -17,4 +17,4 @@ module load intel/python/3
 source /home/nberardo/myenv/bin/activate
 # 3 Run the python script
 #python evaluate.py --data-dir /home/eaiello/ImageNet/ --pretrained /home/nberardo/vicreg/resnet50_fullckpt.pth --exp-dir /home/nberardo/vicreg/experiment/lincls_down --lr-head 0.02
-python extrac_backbone.py
+python extract_backbone.py
