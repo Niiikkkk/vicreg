@@ -1,6 +1,6 @@
 import torch
 
-model = torch.load('resnet50_fullckpt.pth', map_location="cpu")
+model = torch.load('experiment/model.pth', map_location="cpu")
 new_state_dict = {}
 """for name,weights in model["state_dict"].items():
     if name.startswith("module.encoder."):
