@@ -1,6 +1,7 @@
 import torch
+from resnet import resnet50
 
-model = torch.load('/home/nberardo/vicreg/experiment/model.pth')
+model = torch.load('resnet50.pth', map_location='cpu')
 new_state_dict = {}
 """for name,weights in model["state_dict"].items():
     if name.startswith("module.encoder."):
